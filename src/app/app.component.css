@@ -1,0 +1,99 @@
+body{
+    overflow-x: hidden;
+}
+a{
+    size: 28px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+nav{
+    background-color: blueviolet;
+    height: 37px;
+
+}
+a:hover{
+    text-decoration: none;
+}
+form{
+    background-color: rgb(1, 163, 163);
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-top: 1%;
+    border-radius: 15px;
+    width: 165px;
+    margin-bottom: 30px;
+}
+label{
+    margin-right: 20px;
+}
+h5{
+text-align: center;
+font-weight: bold;
+}
+button{
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-bottom: 8px;
+}
+input{
+    border-radius: 5px;
+    border-color: rgb(5, 163, 163);
+}
+select{
+    margin-left: 5px;
+    border-radius: 5px;
+    border-color: rgb(1, 163, 163);
+}
+h2{
+margin-left: 25%;
+font-weight: bold;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: blueviolet;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px white;
+    padding: 1px 1px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .arrow{
+      color: black;
+  }
+  footer{
+      margin-top: 15px;
+      text-align: center;
+  }
+  .whatsup{
+      height: 50px;
+      width: 50px;
+  }
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 20%;
+    margin-top: 2.5%;
+  }
+  .column1 {
+      margin-left: 5.5%;
+    flex: 70%;
+  }

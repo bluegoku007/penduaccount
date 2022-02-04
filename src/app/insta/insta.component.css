@@ -1,0 +1,31 @@
+*{
+    overflow-x: hidden;
+}
+button{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 80px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-top: 8px;
+}
+.card-body{
+    background-color: aquamarine;
+    }
+.card-header{
+    background-color: #c2d1e5;
+}
+input{
+    margin-bottom: 5px;
+}
+.section{
+    margin-left: 55%;
+}

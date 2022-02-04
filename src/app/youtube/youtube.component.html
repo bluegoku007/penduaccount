@@ -1,0 +1,25 @@
+<div class="section"><p>youtube section</p></div>
+<div class="d-flex flex-row justify-content-around">
+    <div class="col card-deck m-0">
+    <div class="col-lg-4 col-md-6 mb-4" *ngFor="let p of produits|orderBy:'prix'">  
+<div class="card text-center">
+<div class="card-header">
+username:{{p.username}}
+</div>
+<div class="card-body">
+<br>
+number of subs:{{p.subscribers}}
+<br>
+price:{{p.prix}}$
+<br>
+<img [src]=p.image>
+<br>
+<a href={{p.link}} target="_blank">
+<button class="btn btn-info">buy</button>
+</a>
+<a href={{p.linkaccount}} target="_blank">
+<button class="btn btn-info">details</button>
+</a>
+</div>
+</div>
+</div>

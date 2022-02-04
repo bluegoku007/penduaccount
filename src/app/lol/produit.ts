@@ -1,0 +1,19 @@
+export class Produit {
+    id?:string;
+    username?:string;
+    skins?:string;
+    prix?:number;
+    image?:string;
+    link?:string;
+    linkaccount?:string;
+    winrate?:string;
+    constructor(args:Produit={}){
+        this.id=args.id;
+        this.username=args.username;
+        this.prix=args.prix;
+        this.skins=args.skins;
+        this.image=args.image;
+        this.link=args.link;
+        this.linkaccount=args.linkaccount;
+}
+}

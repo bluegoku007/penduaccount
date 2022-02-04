@@ -1,0 +1,29 @@
+
+h1{
+    text-align: center;
+    margin-left: 15%;
+}
+img{
+    margin-left: 2%;
+    height: 500px;
+    width: 800px;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 28px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+div{
+    background-color: rgb(181, 172, 192);
+    border-radius: 20px;
+    height: 500px;
+}
+img{
+    margin-left: 35%;
+    height: 350px;
+    width: 350px;
+}
+video{
+    margin-left: 12.5%;
+}
